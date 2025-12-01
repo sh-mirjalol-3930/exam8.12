@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Products from "./components/products/page";
 import DrStyle from "./components/drStyle/DrStyle";
+import Customers from "./components/customers/Customers";
 
 export default async function Home() {
 
@@ -66,6 +67,7 @@ export default async function Home() {
         </div>
       </section>
       <DrStyle />
+      <Customers/>
     </>
   );
 }
