@@ -1,12 +1,12 @@
 import React from 'react'
 import Products from '../components/products/page'
 
-const allProducts = () => {
+const page = () => {
   return (
-    <div className='w-[85%] m-auto py-[20px]'>
-      <Products />
+    <div className='w-[85%] m-auto'>
+       <Products />
     </div>
   )
 }
 
-export default allProducts
+export default page

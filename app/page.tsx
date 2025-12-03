@@ -1,9 +1,9 @@
 import { Button } from "antd";
 import Image from "next/image";
 import Link from "next/link";
-import Products from "./components/products/page";
 import DrStyle from "./components/drStyle/DrStyle";
 import Customers from "./components/customers/Customers";
+import Products from "./components/products-ui/Products";
 
 export default async function Home() {
 
@@ -23,7 +23,7 @@ export default async function Home() {
             <div className="w-[1px] h-[80px] opacity-30 mx-[20px] bg-gray-700"></div>
             <div className="flex items-start flex-col">
               <b className="font-[700] text-[40px]">2,000+</b>
-              <p className="font-[100] text-gray-700 text-[16px]">High-Quality Products</p>
+              <p className="font-[100] text-gray-700 text-[16px]">High-Quality ProductsClient</p>
             </div>
             <div className="w-[1px] h-[80px] opacity-30 mx-[20px] bg-gray-700"></div>
             <div className="flex items-start flex-col">

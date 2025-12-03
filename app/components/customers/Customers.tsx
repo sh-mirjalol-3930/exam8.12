@@ -16,23 +16,21 @@ const Customers = () => {
       <h2 className="font-[700] text-[48px] mb-10">OUR HAPPY CUSTOMERS</h2>
     </div>
 
-      <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
-        // centeredSlides={true}
-        slidesPerView={5}
-        spaceBetween={2}
-        coverflowEffect={{
-          rotate: 25,     // yon tomonga egilishi
-          stretch: 10,
-          depth: -10,     // 3D chuqurlik
-          modifier: 1,
-          slideShadows: false,
-        }}
-        // pagination={{ clickable: true }}
-        modules={[EffectCoverflow, Pagination]}
-        className="w-[100%]"
-        >
+            <Swiper
+                effect={"coverflow"}
+                grabCursor={true}
+                slidesPerView={5}
+                spaceBetween={2}
+                coverflowEffect={{
+                    rotate: 25,
+                    stretch: 10,
+                    depth: -10,
+                    modifier: 1,
+                    slideShadows: false,
+                }}
+                modules={[EffectCoverflow, Pagination]}
+                className="w-[100%]"
+            >
         <SwiperSlide>
             <div className="border-1 p-6 rounded-[20px] flex flex-col scale-[0.8] gap-4">
                 <div className="flex items-center gap-[5px] text-[#FFC633]">

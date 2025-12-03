@@ -1,11 +1,12 @@
-import React from 'react'
+import CartClient from '../components/cart/CartClient'
 
-const cart = () => {
+export default function CartPage() {
   return (
-    <div className="w-[85%] m-auto py-[20px]">
-      cart page
-    </div>
+    <main className="min-h-screen bg-[#F9FAFB] py-12">
+      <div className="max-w-6xl mx-auto px-6">
+        <CartClient />
+      </div>
+    </main>
   )
 }
 
-export default cart
