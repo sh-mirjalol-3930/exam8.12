@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { DeleteOutlined } from "@ant-design/icons";
+import Link from "next/link";
 
 type CartItem = {
   id: string;
@@ -153,10 +154,11 @@ export default function CartClient() {
               Apply
             </button>
           </div>
-
+          <Link href="/checkout">
           <button className="w-full bg-black text-white py-4 rounded-full font-semibold text-lg hover:bg-gray-800">
             Go to Checkout →
           </button>
+          </Link>
         </div>
       </div>
       </div>
